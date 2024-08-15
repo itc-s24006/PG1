@@ -12,4 +12,7 @@ def add_two_numbers(a,b):
     return a+b
 
 decolated_func = show_how_it_works(add_two_numbers)
+if __name__ == "__main__":
+    decolated_func(5,b=3)
+
 
